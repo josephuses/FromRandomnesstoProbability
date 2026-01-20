@@ -18,7 +18,7 @@
     "href": "FromRandomnessToProb.html#intro-to-probability",
     "title": "From Randomness to Probability",
     "section": "Intro to Probability",
-    "text": "Intro to Probability\n\n\n\n\nVideo: Introduction to Probability (Organic Chemistry Tutor)"
+    "text": "Intro to Probability\n\n\nVideo: Introduction to Probability (Organic Chemistry Tutor)"
   },
   {
     "objectID": "FromRandomnessToProb.html#probability-definition",
@@ -46,14 +46,14 @@
     "href": "FromRandomnessToProb.html#the-gamblers-fallacy",
     "title": "From Randomness to Probability",
     "section": "The Gambler’s Fallacy",
-    "text": "The Gambler’s Fallacy\n\n\n\n\nVideo: Why the “Law of Averages” is a myth"
+    "text": "The Gambler’s Fallacy\n\n\nVideo: Why the “Law of Averages” is a myth"
   },
   {
     "objectID": "FromRandomnessToProb.html#probability-rules",
     "href": "FromRandomnessToProb.html#probability-rules",
     "title": "From Randomness to Probability",
     "section": "3. Probability Rules",
-    "text": "3. Probability Rules\nSample Space (\\(S\\))\nThe collection of all possible outcomes. * Example (1 Die): \\(S = \\{1, 2, 3, 4, 5, 6\\}\\)\nRule 1: The Scale\nA probability is a number between 0 and 1. \\[0 \\le P(A) \\le 1\\] * \\(P(A) = 0\\): Impossible event. * \\(P(A) = 1\\): Certain event."
+    "text": "3. Probability Rules\nSample Space (\\(S\\))\nThe collection of all possible outcomes.\n\nExample (1 Die): \\(S = \\{1, 2, 3, 4, 5, 6\\}\\)\n\nRule 1: The Scale\nA probability is a number between 0 and 1.\n\\[0 \\le P(A) \\le 1\\]\n\n\\(P(A) = 0\\): Impossible event.\n\\(P(A) = 1\\): Certain event."
   },
   {
     "objectID": "FromRandomnessToProb.html#rule-2-the-something-has-to-happen-rule",
@@ -81,28 +81,28 @@
     "href": "FromRandomnessToProb.html#rule-4b-general-addition-rule-overlapping",
     "title": "From Randomness to Probability",
     "section": "Rule 4b: General Addition Rule (Overlapping)",
-    "text": "Rule 4b: General Addition Rule (Overlapping)\nIf two events can happen at the same time (they are not disjoint), we must subtract the overlap so we don’t count it twice.\n\\[P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\]\n\n\n S\n A\n B\nA and B (A ∩ B)\nOverlapping Events (Joint)\n\n\nExample: Drawing a Card\n\nA: Card is a Face Card (J, Q, K). (12 cards)\nB: Card is a Heart (♥). (13 cards)\nOverlap (\\(A \\cap B\\)): Face Card and Heart (J♥, Q♥, K♥). (3 cards)\n\n\\[P(A \\cup B) = \\frac{12}{52} + \\frac{13}{52} - \\frac{3}{52} = \\frac{22}{52}\\]"
+    "text": "Rule 4b: General Addition Rule (Overlapping)\nIf two events can happen at the same time (they are not disjoint), we must subtract the overlap so we don’t count it twice.\n\\[P(A \\text{ or } B) = P(A) + P(B) - P(A \\text{ and } B)\\] \\[P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\]\n\n\n S  A  B A and B A ∩ B Overlapping Events (Joint)\n\n\nExample: Drawing a Card\n\nA: Card is a Face Card (J, Q, K). (12 cards)\nB: Card is a Heart (♥). (13 cards)\nOverlap (\\(A \\cap B\\)): Face Card and Heart (J♥, Q♥, K♥). (3 cards)\n\n\\[P(A \\cup B) = \\frac{12}{52} + \\frac{13}{52} - \\frac{3}{52} = \\frac{22}{52}\\]"
   },
   {
     "objectID": "FromRandomnessToProb.html#addition-rule-video",
     "href": "FromRandomnessToProb.html#addition-rule-video",
     "title": "From Randomness to Probability",
     "section": "Addition Rule Video",
-    "text": "Addition Rule Video\n\n\n\n\nVideo: The Addition Rule for Probability"
+    "text": "Addition Rule Video\n\n\nVideo: The Addition Rule for Probability"
   },
   {
     "objectID": "FromRandomnessToProb.html#rule-5-the-multiplication-rule-independent-events",
     "href": "FromRandomnessToProb.html#rule-5-the-multiplication-rule-independent-events",
     "title": "From Randomness to Probability",
     "section": "Rule 5: The Multiplication Rule (Independent Events)",
-    "text": "Rule 5: The Multiplication Rule (Independent Events)\nTwo events are Independent if the outcome of one does not influence the other.\n\\[P(A \\text{ and } B) = P(A) \\times P(B)\\]\nExample: Two Coin Flips\nGetting “Tao” (Heads) on the first coin does not change the second coin. * \\(P(\\text{Tao}_1) = 0.5, P(\\text{Tao}_2) = 0.5\\) * \\(P(\\text{Tao}_1 \\text{ and } \\text{Tao}_2) = 0.5 \\times 0.5 = 0.25\\)"
+    "text": "Rule 5: The Multiplication Rule (Independent Events)\nTwo events are Independent if the outcome of one does not influence the other.\n\\[P(A \\text{ and } B) = P(A) \\times P(B)\\]\nExample: Two Coin Flips\nGetting “Tao” (Heads) on the first coin does not change the second coin.\n\n\\(P(\\text{Tao}_1) = 0.5, P(\\text{Tao}_2) = 0.5\\)\n\\(P(\\text{Tao}_1 \\text{ and } \\text{Tao}_2) = 0.5 \\times 0.5 = 0.25\\)"
   },
   {
     "objectID": "FromRandomnessToProb.html#multiplication-rule-explained",
     "href": "FromRandomnessToProb.html#multiplication-rule-explained",
     "title": "From Randomness to Probability",
     "section": "Multiplication Rule Explained",
-    "text": "Multiplication Rule Explained\n\n\n\n\nVideo: Independent Events and the Multiplication Rule"
+    "text": "Multiplication Rule Explained\n\n\nVideo: Independent Events and the Multiplication Rule"
   },
   {
     "objectID": "FromRandomnessToProb.html#visualizing-relationships",
@@ -116,7 +116,7 @@
     "href": "FromRandomnessToProb.html#practice-at-least-one",
     "title": "From Randomness to Probability",
     "section": "Practice: “At Least One”",
-    "text": "Practice: “At Least One”\nTo calculate the probability of “At least one”, use the Complement Rule.\n\\[P(\\text{At least one}) = 1 - P(\\text{None})\\]\nExample: Defective Bulbs\nProbability of a defective bulb is \\(0.05\\). You buy 3 bulbs. What is the chance at least one is defective? 1. Find \\(P(\\text{Good}) = 1 - 0.05 = 0.95\\). 2. Find \\(P(\\text{3 Good}) = 0.95 \\times 0.95 \\times 0.95 = 0.857\\) (assuming independence). 3. \\(P(\\text{At least one bad}) = 1 - 0.857 = 0.143\\)."
+    "text": "Practice: “At Least One”\nTo calculate the probability of “At least one”, use the Complement Rule.\n\\[P(\\text{At least one}) = 1 - P(\\text{None})\\]\nExample: Defective Bulbs\nProbability of a defective bulb is \\(0.05\\). You buy 3 bulbs. What is the chance at least one is defective?\n\nFind \\(P(\\text{Good}) = 1 - 0.05 = 0.95\\).\nFind \\(P(\\text{3 Good}) = 0.95 \\times 0.95 \\times 0.95 = 0.857\\) (assuming independence).\n\\(P(\\text{At least one bad}) = 1 - 0.857 = 0.143\\)."
   },
   {
     "objectID": "FromRandomnessToProb.html#summary-of-calculations",
