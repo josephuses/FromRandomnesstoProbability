@@ -252,11 +252,23 @@ Joseph S. Tabadero, Jr.
 <rect x="10" y="10" width="380" height="280" fill="#f9f9f9" stroke="black" stroke-width="2"></rect> <text x="30" y="40" font-size="20">S</text> <circle cx="120" cy="150" r="70" fill="#69b3a2" opacity="0.7" stroke="black" stroke-width="2"></circle> <text x="120" y="150" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">A</text> <circle cx="280" cy="150" r="70" fill="#404080" opacity="0.7" stroke="black" stroke-width="2"></circle> <text x="280" y="150" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">B</text> <text x="200" y="260" text-anchor="middle" font-size="18">Disjoint (No Overlap)</text>
 </svg>
 </div>
-<h3 id="example-jeepney-colors">Example: Jeepney Colors</h3>
+</section>
+<section id="rule-4b-general-addition-rule-overlapping" class="slide level2">
+<h2>Rule 4b: General Addition Rule (Overlapping)</h2>
+<p>If two events <strong>can</strong> happen at the same time (they are <em>not</em> disjoint), we must subtract the overlap so we don’t count it twice.</p>
+<p><span class="math display">\[P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B)\]</span> <span class="math display">\[P(A \cup B) = P(A) + P(B) - P(A \cap B)\]</span></p>
+<div style="text-align: center;">
+<svg width="300" height="180" viewbox="0 0 400 300">
+<rect x="10" y="10" width="280" height="280" fill="#f9f9f9" stroke="black" stroke-width="2"></rect> <text x="30" y="40" font-size="20">S</text> <circle cx="120" cy="150" r="100" fill="#69b3a2" opacity="0.7" stroke="black" stroke-width="2"></circle> <text x="60" y="150" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">A</text> <circle cx="180" cy="150" r="100" fill="#404080" opacity="0.7" stroke="black" stroke-width="2"></circle> <text x="240" y="150" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">B</text> <text x="150" y="150" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">A and B</text> <text x="150" y="180" text-anchor="middle" alignment-baseline="middle" font-size="24" font-weight="bold" fill="white">A ∩ B</text> <text x="150" y="270" text-anchor="middle" font-size="18">Overlapping Events (Joint)</text>
+</svg>
+</div>
+<h3 id="example-drawing-a-card">Example: Drawing a Card</h3>
 <ul>
-<li><span class="math inline">\(P(\text{Red}) = 0.3\)</span>, <span class="math inline">\(P(\text{Blue}) = 0.2\)</span></li>
-<li><span class="math inline">\(P(\text{Red or Blue}) = 0.3 + 0.2 = 0.5\)</span></li>
+<li><strong>A:</strong> Card is a <strong>Face Card</strong> (J, Q, K). (12 cards)</li>
+<li><strong>B:</strong> Card is a <strong>Heart</strong> (♥). (13 cards)</li>
+<li><strong>Overlap (<span class="math inline">\(A \cap B\)</span>):</strong> Face Card <strong>and</strong> Heart (J♥, Q♥, K♥). (3 cards)</li>
 </ul>
+<p><span class="math display">\[P(A \cup B) = \frac{12}{52} + \frac{13}{52} - \frac{3}{52} = \frac{22}{52}\]</span></p>
 </section>
 <section id="addition-rule-video" class="slide level2">
 <h2>Addition Rule Video</h2>
@@ -347,12 +359,20 @@ Joseph S. Tabadero, Jr.
 <td>Only if <strong>Disjoint</strong></td>
 </tr>
 <tr class="odd">
+<td><strong>Addition</strong></td>
+<td><span class="math inline">\(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)</span></td>
+<td>If <strong>Joint</strong></td>
+</tr>
+<tr class="even">
 <td><strong>Multiplication</strong></td>
 <td><span class="math inline">\(P(A \cap B) = P(A) \times P(B)\)</span></td>
 <td>Only if <strong>Independent</strong></td>
 </tr>
 </tbody>
 </table>
+<blockquote>
+<p>Note: <span class="math inline">\(P(A\cap B)=0\)</span> if events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are disjoint.</p>
+</blockquote>
 </section>
 <section id="final-thought" class="slide level2">
 <h2>Final Thought</h2>
@@ -649,7 +669,7 @@ Joseph S. Tabadero, Jr.
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/josephuses\.github\.io\/FromRandomnesstoProbability\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
